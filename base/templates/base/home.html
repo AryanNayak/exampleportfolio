@@ -1,0 +1,85 @@
+{% load static %}
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aryan Nayak</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/main.css' %}">
+  </head>
+  <body>
+<div class="container">
+<div class="row">
+  <div class="col-md-3 h-100">
+    <div class="card card-body" id = "profile-wrapper">
+      <img id='profile-pic' src="{% static 'images/photo7 2.jpg' %}" alt="">
+      <br>
+      <h4>Hi i am Aryan</h4>
+      <p>I love coding, music and meeting new people</p>
+</div>
+</div>
+<div class="col-md-9 h-100">
+  <div class="card card-body h-100">
+    <h4>Social links</h4>
+    <ul class="social-links">
+  						<li><img class="social" src="{% static 'images/facebook.jpg' %}"><a href="https://www.facebook.com"></a></li>
+  						<li><img class="social" src="{% static 'images/twitter.jpg' %}"> <a href="https://www.youtube.com"></a> </li>
+  						<li><img class="social" src="{% static 'images/youtube.jpg' %}"><a href="https://twitter.com/home"></a></li>
+  					</ul>
+
+            				</div>
+            			</div>
+            		</div>
+            		<br>
+            		<div class="row">
+            			<div class="col-md-6">
+            				<div class="card card-body h-100">
+            					<h5>My Experience as a Developer</h5>
+            					<hr>
+            					<p>Full stack developer</p>
+            					</div>
+            			</div>
+
+            			<div class="col-md-6">
+            				<div class="card card-body h-100">
+            					<h5>What I Know</h5>
+            					<hr>
+            					<p>Python, Django, HTML/CSS, JavaScript/Jquery</p>
+
+            				</div>
+            			</div>
+            		</div>
+            		<br>
+            		<div class="row">
+            			<div class="col-md-6">
+            				<div class="card card-body h-100">
+            					<h5>How I Learn</h5>
+            					<hr>
+            					<p>Reverse Engineer</p>
+
+            					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+            				</div>
+            			</div>
+
+            			<div class="col-md-6">
+            				<div class="card card-body h-100">
+            					<h5>Goals</h5>
+            				<hr>
+<p>Learning new technology</p>
+            				</div>
+            			</div>
+            		</div>
+            		<br>
+            	</div>
+
+
+            </body>
+            </html>
